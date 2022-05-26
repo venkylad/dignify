@@ -18,6 +18,8 @@ app.use(bodyParser.json());
 
 app.use("/users", UserRoutes);
 
+app.use("/", "jaffa");
+
 const PORT = process.env.PORT || 8000;
 
 mongoose

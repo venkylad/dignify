@@ -1,5 +1,7 @@
 # dignify
 
+## deployed link: https://dygnifyass.herokuapp.com/
+
 ## For client
 ### clone the project, use cd/client, then use command npm install to install npm packages|
 ### npm start to start the server in localhost:3000

@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 
 app.use("/users", UserRoutes);
 
-app.use("/", "jaffa");
+app.get("/", (req, res) => res.send("JAFFA"));
 
 const PORT = process.env.PORT || 8000;
 

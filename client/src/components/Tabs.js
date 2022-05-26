@@ -65,7 +65,7 @@ export default function BasicTabs() {
     onSubmit: async (values, { resetForm }) => {
       console.log(values);
       await axios
-        .post("http://localhost:8000/users", values)
+        .post("https://dynify-server.herokuapp.com/users", values)
         .then((res) => {
           console.log(res);
           if (res.status === 201) {

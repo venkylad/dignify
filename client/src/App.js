@@ -7,7 +7,9 @@ const App = () => {
   const [users, setUsers] = React.useState([]);
 
   const fetchUsers = async () => {
-    const { data } = await axios.get("http://localhost:8000/users");
+    const { data } = await axios.get(
+      "https://dynify-server.herokuapp.com/users"
+    );
     setUsers(data);
   };
 

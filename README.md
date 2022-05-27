@@ -2,7 +2,7 @@
 
 ## PREVIEW: https://dignify-client.vercel.app/
 
-<img src="dygnify.png" alt="" />
+<img src="dyg.png" alt="" />
 
 ## For client
 

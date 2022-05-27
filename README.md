@@ -1,6 +1,6 @@
 # dignify
 
-## deployed link: https://dygnifyass.herokuapp.com/
+## PREVIEW: https://dignify-client.vercel.app/
 
 ## For client
 ### clone the project, use cd/client, then use command npm install to install npm packages|
